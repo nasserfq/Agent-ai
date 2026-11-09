@@ -1,0 +1,106 @@
+# Urdu (اردو)
+# English<TAB>translation. A missing line shows in English.
+Couldn't save settings	سیٹنگز محفوظ نہیں ہو سکیں
+Choose a model	ماڈل منتخب کریں
+Add an API key in Settings first.	پہلے سیٹنگز میں API کلید شامل کریں۔
+Choose a model first.	پہلے ماڈل منتخب کریں۔
+The model declined to answer.	ماڈل نے جواب دینے سے انکار کر دیا۔
+The reply was cut off because it got too long.	جواب بہت طویل ہونے کی وجہ سے کٹ گیا۔
+The agent stopped after many steps. Say “continue” to let it go on.	ایجنٹ کئی مراحل کے بعد رک گیا۔ جاری رکھنے کے لیے «جاری رکھو» لکھیں۔
+Some apps couldn't start:	کچھ ایپس شروع نہیں ہو سکیں:
+This kind of file can't be attached	اس قسم کی فائل منسلک نہیں کی جا سکتی
+The file is larger than 20 MB	فائل 20 MB سے بڑی ہے
+Agent AI	وکیل
+New chat	نئی گفتگو
+Agents	ایجنٹس
+Chats	گفتگوئیں
+Delete chat	گفتگو حذف کریں
+Settings	سیٹنگز
+tokens	ٹوکن
+Running	چل رہا ہے
+Copy	کاپی
+Thinking…	سوچ رہا ہے…
+How can I help?	میں کیسے مدد کر سکتا ہوں؟
+Pick an agent on the side, or just start typing.	سائیڈ سے کوئی ایجنٹ چنیں، یا لکھنا شروع کریں۔
+Tip: install Kalima, Jadwal, Ard or Wathiqa from mokteb.com and the agents can work in them.	مشورہ: mokteb.com سے کلمة، جدول، عرض یا وثيقة انسٹال کریں تاکہ ایجنٹس ان میں کام کر سکیں۔
+Stop	روکیں
+Send	بھیجیں
+Attach files	فائلیں منسلک کریں
+Write a message… (Shift+Enter for a new line)	پیغام لکھیں… (نئی سطر کے لیے Shift+Enter)
+Free only	صرف مفت
+Search	تلاش
+Load models	ماڈلز لوڈ کریں
+Try again	دوبارہ کوشش کریں
+free	مفت
+the agent	ایجنٹ
+Allow	اجازت دیں
+Always allow in this chat	اس گفتگو میں ہمیشہ اجازت دیں
+Don't allow	اجازت نہ دیں
+Check the API key in Settings.	سیٹنگز میں API کلید چیک کریں۔
+Too many requests or no credit left. Wait a little, or try another model.	بہت زیادہ درخواستیں یا کریڈٹ ختم۔ تھوڑا انتظار کریں یا کوئی اور ماڈل آزمائیں۔
+Check the internet connection.	انٹرنیٹ کنکشن چیک کریں۔
+Welcome to Agent AI	وکیل میں خوش آمدید
+Chat with Claude, Gemini and hundreds of free models, and give them agents that work in your files and apps.	Claude، Gemini اور سینکڑوں مفت ماڈلز سے بات کریں، اور انہیں ایسے ایجنٹس دیں جو آپ کی فائلوں اور ایپس میں کام کریں۔
+How do you want to start?	آپ کیسے شروع کرنا چاہتے ہیں؟
+Start	شروع کریں
+Skip for now	ابھی چھوڑ دیں
+Language	زبان
+No key needed.	کلید کی ضرورت نہیں۔
+Download	ڈاؤن لوڈ
+Save	محفوظ کریں
+Get a key	کلید حاصل کریں
+key saved.	کلید محفوظ ہو گئی۔
+Couldn't save the key	کلید محفوظ نہیں ہو سکی
+Back	واپس
+Default model:	طے شدہ ماڈل:
+Your keys stay on this computer and are sent only to the service they belong to.	آپ کی کلیدیں اسی کمپیوٹر پر رہتی ہیں اور صرف متعلقہ سروس کو بھیجی جاتی ہیں۔
+models	ماڈلز
+Loading…	لوڈ ہو رہا ہے…
+Remove	ہٹائیں
+Add an OpenAI-compatible service	OpenAI سے مطابقت رکھنے والی سروس شامل کریں
+For example LM Studio, DeepSeek, Mistral or a company server.	مثلاً LM Studio، DeepSeek، Mistral یا کمپنی کا سرور۔
+Name	نام
+Add	شامل کریں
+Edit	ترمیم
+Delete	حذف
+New agent	نیا ایجنٹ
+Agents can work inside these apps. Turn an app on for an agent under Agents.	ایجنٹس ان ایپس کے اندر کام کر سکتے ہیں۔ ایجنٹس والے حصے میں کسی ایجنٹ کے لیے ایپ آن کریں۔
+None of the مكتب apps were found on this computer.	اس کمپیوٹر پر مكتب کی کوئی ایپ نہیں ملی۔
+Get them free at mokteb.com	mokteb.com سے مفت حاصل کریں
+Run without asking	پوچھے بغیر چلائیں
+Add an MCP server	MCP سرور شامل کریں
+The command that starts it, for example: npx -y @modelcontextprotocol/server-filesystem ~/Documents	اسے چلانے والی کمانڈ، مثلاً: npx -y @modelcontextprotocol/server-filesystem ~/Documents
+Command	کمانڈ
+Browse…	براؤز…
+Look for apps again	ایپس دوبارہ تلاش کریں
+Appearance	ظاہری شکل
+Made by Nasser Alqahtani, part of the مكتب family of apps.	ناصر القحطانی کی تیار کردہ، مكتب ایپس کے خاندان کا حصہ۔
+Your chats are saved in	آپ کی گفتگوئیں یہاں محفوظ ہیں:
+Paste the API key	API کلید پیسٹ کریں
+Badge (one letter)	بیج (ایک حرف)
+Instructions	ہدایات
+Model	ماڈل
+Default	طے شدہ
+model id	ماڈل آئی ڈی
+Effort (Claude)	محنت (Claude)
+Tools	ٹولز
+Read web pages	ویب صفحات پڑھیں
+No working folder	کوئی ورکنگ فولڈر نہیں
+Choose folder…	فولڈر منتخب کریں…
+No apps found. Install Kalima, Jadwal, Ard or Wathiqa, or add an MCP server under Apps.	کوئی ایپ نہیں ملی۔ کلمة، جدول، عرض یا وثيقة انسٹال کریں، یا ایپس میں MCP سرور شامل کریں۔
+Done	ہو گیا
+Free: Google gives a free daily allowance. Get a key in two minutes with a Google account.	مفت: Google روزانہ مفت حد دیتا ہے۔ Google اکاؤنٹ سے دو منٹ میں کلید حاصل کریں۔
+One key for hundreds of models, including many free ones.	سینکڑوں ماڈلز کے لیے ایک کلید، جن میں بہت سے مفت ہیں۔
+Claude, paid per use. Best for writing, reasoning and agents.	Claude، استعمال کے حساب سے ادائیگی۔ لکھنے، سوچنے اور ایجنٹس کے لیے بہترین۔
+Free and private: models running on this computer (needs Ollama and a fast computer).	مفت اور نجی: اس کمپیوٹر پر چلنے والے ماڈلز (Ollama اور تیز کمپیوٹر درکار ہے)۔
+AI services	AI سروسز
+Apps	ایپس
+General	عمومی
+Quick	تیز
+Balanced	متوازن
+Thorough	تفصیلی
+Automatic	خودکار
+Light	ہلکا
+Dark	گہرا
+Permission needed	اجازت درکار ہے
+Read and write files in this folder	اس فولڈر میں فائلیں پڑھیں اور لکھیں

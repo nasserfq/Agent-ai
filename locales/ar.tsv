@@ -1,0 +1,106 @@
+# Arabic (العربية), the default interface language
+# English<TAB>translation. A missing line shows in English.
+Couldn't save settings	تعذّر حفظ الإعدادات
+Choose a model	اختر نموذجًا
+Add an API key in Settings first.	أضف مفتاح API من الإعدادات أولًا.
+Choose a model first.	اختر نموذجًا أولًا.
+The model declined to answer.	اعتذر النموذج عن الإجابة.
+The reply was cut off because it got too long.	انقطع الرد لأنه طال كثيرًا.
+The agent stopped after many steps. Say “continue” to let it go on.	توقف الوكيل بعد خطوات كثيرة. اكتب «تابع» ليكمل.
+Some apps couldn't start:	تعذّر تشغيل بعض التطبيقات:
+This kind of file can't be attached	لا يمكن إرفاق هذا النوع من الملفات
+The file is larger than 20 MB	حجم الملف أكبر من 20 ميغابايت
+Agent AI	وكيل
+New chat	محادثة جديدة
+Agents	الوكلاء
+Chats	المحادثات
+Delete chat	حذف المحادثة
+Settings	الإعدادات
+tokens	رمز
+Running	يجري تشغيل
+Copy	نسخ
+Thinking…	يفكّر…
+How can I help?	كيف أستطيع مساعدتك؟
+Pick an agent on the side, or just start typing.	اختر وكيلًا من الجانب، أو ابدأ الكتابة مباشرة.
+Tip: install Kalima, Jadwal, Ard or Wathiqa from mokteb.com and the agents can work in them.	نصيحة: ثبّت كلمة أو جدول أو عرض أو وثيقة من mokteb.com ليعمل الوكلاء داخلها.
+Stop	إيقاف
+Send	إرسال
+Attach files	إرفاق ملفات
+Write a message… (Shift+Enter for a new line)	اكتب رسالتك… (Shift+Enter لسطر جديد)
+Free only	المجانية فقط
+Search	بحث
+Load models	تحميل النماذج
+Try again	أعد المحاولة
+free	مجاني
+the agent	الوكيل
+Allow	السماح
+Always allow in this chat	السماح دائمًا في هذه المحادثة
+Don't allow	عدم السماح
+Check the API key in Settings.	تحقق من مفتاح API في الإعدادات.
+Too many requests or no credit left. Wait a little, or try another model.	طلبات كثيرة أو انتهى الرصيد. انتظر قليلًا أو جرّب نموذجًا آخر.
+Check the internet connection.	تحقق من الاتصال بالإنترنت.
+Welcome to Agent AI	أهلًا بك في وكيل
+Chat with Claude, Gemini and hundreds of free models, and give them agents that work in your files and apps.	تحدّث مع Claude وGemini ومئات النماذج المجانية، واجعل لها وكلاء يعملون في ملفاتك وتطبيقاتك.
+How do you want to start?	كيف تريد أن تبدأ؟
+Start	ابدأ
+Skip for now	تخطَّ الآن
+Language	اللغة
+No key needed.	لا يحتاج مفتاحًا.
+Download	تنزيل
+Save	حفظ
+Get a key	احصل على مفتاح
+key saved.	حُفظ المفتاح.
+Couldn't save the key	تعذّر حفظ المفتاح
+Back	رجوع
+Default model:	النموذج الافتراضي:
+Your keys stay on this computer and are sent only to the service they belong to.	تبقى مفاتيحك على هذا الجهاز ولا تُرسل إلا إلى الخدمة التابعة لها.
+models	نموذجًا
+Loading…	يجري التحميل…
+Remove	إزالة
+Add an OpenAI-compatible service	إضافة خدمة متوافقة مع OpenAI
+For example LM Studio, DeepSeek, Mistral or a company server.	مثل LM Studio أو DeepSeek أو Mistral أو خادم شركتك.
+Name	الاسم
+Add	إضافة
+Edit	تعديل
+Delete	حذف
+New agent	وكيل جديد
+Agents can work inside these apps. Turn an app on for an agent under Agents.	يستطيع الوكلاء العمل داخل هذه التطبيقات. فعّل التطبيق للوكيل من قسم «الوكلاء».
+None of the مكتب apps were found on this computer.	لم يُعثر على أي من تطبيقات مكتب على هذا الجهاز.
+Get them free at mokteb.com	نزّلها مجانًا من mokteb.com
+Run without asking	التشغيل دون سؤال
+Add an MCP server	إضافة خادم MCP
+The command that starts it, for example: npx -y @modelcontextprotocol/server-filesystem ~/Documents	الأمر الذي يشغّله، مثل: npx -y @modelcontextprotocol/server-filesystem ~/Documents
+Command	الأمر
+Browse…	استعراض…
+Look for apps again	البحث عن التطبيقات مجددًا
+Appearance	المظهر
+Made by Nasser Alqahtani, part of the مكتب family of apps.	من تطوير ناصر القحطاني، ضمن عائلة تطبيقات مكتب.
+Your chats are saved in	تُحفظ محادثاتك في
+Paste the API key	الصق مفتاح API
+Badge (one letter)	الشارة (حرف واحد)
+Instructions	التعليمات
+Model	النموذج
+Default	الافتراضي
+model id	معرّف النموذج
+Effort (Claude)	مستوى الجهد (Claude)
+Tools	الأدوات
+Read web pages	قراءة صفحات الويب
+No working folder	لا يوجد مجلد عمل
+Choose folder…	اختيار مجلد…
+No apps found. Install Kalima, Jadwal, Ard or Wathiqa, or add an MCP server under Apps.	لم يُعثر على تطبيقات. ثبّت كلمة أو جدول أو عرض أو وثيقة، أو أضف خادم MCP من قسم «التطبيقات».
+Done	تم
+Free: Google gives a free daily allowance. Get a key in two minutes with a Google account.	مجاني: تقدّم Google حصة يومية مجانية. احصل على مفتاح في دقيقتين بحساب Google.
+One key for hundreds of models, including many free ones.	مفتاح واحد لمئات النماذج، كثير منها مجاني.
+Claude, paid per use. Best for writing, reasoning and agents.	الدفع حسب الاستخدام مع Claude. الأفضل للكتابة والتفكير والوكلاء.
+Free and private: models running on this computer (needs Ollama and a fast computer).	مجاني وخاص: نماذج تعمل على هذا الجهاز (يحتاج Ollama وجهازًا سريعًا).
+AI services	خدمات الذكاء الاصطناعي
+Apps	التطبيقات
+General	عام
+Quick	سريع
+Balanced	متوازن
+Thorough	متعمّق
+Automatic	تلقائي
+Light	فاتح
+Dark	داكن
+Permission needed	مطلوب إذنك
+Read and write files in this folder	قراءة الملفات وكتابتها في هذا المجلد

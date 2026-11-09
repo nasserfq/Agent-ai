@@ -1,0 +1,106 @@
+# French (Français)
+# English<TAB>translation. A missing line shows in English.
+Couldn't save settings	Impossible d'enregistrer les réglages
+Choose a model	Choisir un modèle
+Add an API key in Settings first.	Ajoutez d'abord une clé API dans les Réglages.
+Choose a model first.	Choisissez d'abord un modèle.
+The model declined to answer.	Le modèle a refusé de répondre.
+The reply was cut off because it got too long.	La réponse a été coupée car elle était trop longue.
+The agent stopped after many steps. Say “continue” to let it go on.	L'agent s'est arrêté après de nombreuses étapes. Écrivez « continue » pour qu'il poursuive.
+Some apps couldn't start:	Certaines applications n'ont pas pu démarrer :
+This kind of file can't be attached	Ce type de fichier ne peut pas être joint
+The file is larger than 20 MB	Le fichier dépasse 20 Mo
+Agent AI	Agent AI
+New chat	Nouvelle discussion
+Agents	Agents
+Chats	Discussions
+Delete chat	Supprimer la discussion
+Settings	Réglages
+tokens	jetons
+Running	Exécution de
+Copy	Copier
+Thinking…	Réflexion…
+How can I help?	Comment puis-je vous aider ?
+Pick an agent on the side, or just start typing.	Choisissez un agent sur le côté, ou commencez à écrire.
+Tip: install Kalima, Jadwal, Ard or Wathiqa from mokteb.com and the agents can work in them.	Astuce : installez Kalima, Jadwal, Ard ou Wathiqa depuis mokteb.com et les agents pourront y travailler.
+Stop	Arrêter
+Send	Envoyer
+Attach files	Joindre des fichiers
+Write a message… (Shift+Enter for a new line)	Écrivez un message… (Maj+Entrée pour une nouvelle ligne)
+Free only	Gratuits uniquement
+Search	Rechercher
+Load models	Charger les modèles
+Try again	Réessayer
+free	gratuit
+the agent	l'agent
+Allow	Autoriser
+Always allow in this chat	Toujours autoriser dans cette discussion
+Don't allow	Ne pas autoriser
+Check the API key in Settings.	Vérifiez la clé API dans les Réglages.
+Too many requests or no credit left. Wait a little, or try another model.	Trop de requêtes ou crédit épuisé. Patientez un peu ou essayez un autre modèle.
+Check the internet connection.	Vérifiez la connexion Internet.
+Welcome to Agent AI	Bienvenue dans Agent AI
+Chat with Claude, Gemini and hundreds of free models, and give them agents that work in your files and apps.	Discutez avec Claude, Gemini et des centaines de modèles gratuits, et confiez-leur des agents qui travaillent dans vos fichiers et applications.
+How do you want to start?	Comment voulez-vous commencer ?
+Start	Commencer
+Skip for now	Passer pour l'instant
+Language	Langue
+No key needed.	Aucune clé nécessaire.
+Download	Télécharger
+Save	Enregistrer
+Get a key	Obtenir une clé
+key saved.	clé enregistrée.
+Couldn't save the key	Impossible d'enregistrer la clé
+Back	Retour
+Default model:	Modèle par défaut :
+Your keys stay on this computer and are sent only to the service they belong to.	Vos clés restent sur cet ordinateur et ne sont envoyées qu'au service concerné.
+models	modèles
+Loading…	Chargement…
+Remove	Retirer
+Add an OpenAI-compatible service	Ajouter un service compatible OpenAI
+For example LM Studio, DeepSeek, Mistral or a company server.	Par exemple LM Studio, DeepSeek, Mistral ou un serveur d'entreprise.
+Name	Nom
+Add	Ajouter
+Edit	Modifier
+Delete	Supprimer
+New agent	Nouvel agent
+Agents can work inside these apps. Turn an app on for an agent under Agents.	Les agents peuvent travailler dans ces applications. Activez une application pour un agent dans Agents.
+None of the مكتب apps were found on this computer.	Aucune application مكتب trouvée sur cet ordinateur.
+Get them free at mokteb.com	Téléchargez-les gratuitement sur mokteb.com
+Run without asking	Exécuter sans demander
+Add an MCP server	Ajouter un serveur MCP
+The command that starts it, for example: npx -y @modelcontextprotocol/server-filesystem ~/Documents	La commande qui le lance, par exemple : npx -y @modelcontextprotocol/server-filesystem ~/Documents
+Command	Commande
+Browse…	Parcourir…
+Look for apps again	Rechercher à nouveau les applications
+Appearance	Apparence
+Made by Nasser Alqahtani, part of the مكتب family of apps.	Créé par Nasser Alqahtani, dans la famille d'applications مكتب.
+Your chats are saved in	Vos discussions sont enregistrées dans
+Paste the API key	Collez la clé API
+Badge (one letter)	Badge (une lettre)
+Instructions	Instructions
+Model	Modèle
+Default	Par défaut
+model id	identifiant du modèle
+Effort (Claude)	Effort (Claude)
+Tools	Outils
+Read web pages	Lire des pages web
+No working folder	Aucun dossier de travail
+Choose folder…	Choisir un dossier…
+No apps found. Install Kalima, Jadwal, Ard or Wathiqa, or add an MCP server under Apps.	Aucune application trouvée. Installez Kalima, Jadwal, Ard ou Wathiqa, ou ajoutez un serveur MCP dans Applications.
+Done	Terminé
+Free: Google gives a free daily allowance. Get a key in two minutes with a Google account.	Gratuit : Google offre un quota quotidien gratuit. Obtenez une clé en deux minutes avec un compte Google.
+One key for hundreds of models, including many free ones.	Une seule clé pour des centaines de modèles, dont beaucoup sont gratuits.
+Claude, paid per use. Best for writing, reasoning and agents.	Claude, payé à l'usage. Le meilleur pour l'écriture, le raisonnement et les agents.
+Free and private: models running on this computer (needs Ollama and a fast computer).	Gratuit et privé : des modèles qui tournent sur cet ordinateur (nécessite Ollama et un ordinateur rapide).
+AI services	Services d'IA
+Apps	Applications
+General	Général
+Quick	Rapide
+Balanced	Équilibré
+Thorough	Approfondi
+Automatic	Automatique
+Light	Clair
+Dark	Sombre
+Permission needed	Autorisation requise
+Read and write files in this folder	Lire et écrire des fichiers dans ce dossier

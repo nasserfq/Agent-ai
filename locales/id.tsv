@@ -1,0 +1,106 @@
+# Indonesian (Bahasa Indonesia)
+# English<TAB>translation. A missing line shows in English.
+Couldn't save settings	Gagal menyimpan pengaturan
+Choose a model	Pilih model
+Add an API key in Settings first.	Tambahkan kunci API di Pengaturan terlebih dahulu.
+Choose a model first.	Pilih model terlebih dahulu.
+The model declined to answer.	Model menolak menjawab.
+The reply was cut off because it got too long.	Balasan terpotong karena terlalu panjang.
+The agent stopped after many steps. Say “continue” to let it go on.	Agen berhenti setelah banyak langkah. Ketik “lanjut” agar ia meneruskan.
+Some apps couldn't start:	Beberapa aplikasi gagal dimulai:
+This kind of file can't be attached	Jenis berkas ini tidak bisa dilampirkan
+The file is larger than 20 MB	Berkas lebih besar dari 20 MB
+Agent AI	Agent AI
+New chat	Obrolan baru
+Agents	Agen
+Chats	Obrolan
+Delete chat	Hapus obrolan
+Settings	Pengaturan
+tokens	token
+Running	Menjalankan
+Copy	Salin
+Thinking…	Berpikir…
+How can I help?	Ada yang bisa saya bantu?
+Pick an agent on the side, or just start typing.	Pilih agen di samping, atau langsung mulai mengetik.
+Tip: install Kalima, Jadwal, Ard or Wathiqa from mokteb.com and the agents can work in them.	Tips: pasang Kalima, Jadwal, Ard, atau Wathiqa dari mokteb.com agar agen bisa bekerja di dalamnya.
+Stop	Berhenti
+Send	Kirim
+Attach files	Lampirkan berkas
+Write a message… (Shift+Enter for a new line)	Tulis pesan… (Shift+Enter untuk baris baru)
+Free only	Hanya yang gratis
+Search	Cari
+Load models	Muat model
+Try again	Coba lagi
+free	gratis
+the agent	agen
+Allow	Izinkan
+Always allow in this chat	Selalu izinkan di obrolan ini
+Don't allow	Jangan izinkan
+Check the API key in Settings.	Periksa kunci API di Pengaturan.
+Too many requests or no credit left. Wait a little, or try another model.	Terlalu banyak permintaan atau saldo habis. Tunggu sebentar atau coba model lain.
+Check the internet connection.	Periksa koneksi internet.
+Welcome to Agent AI	Selamat datang di Agent AI
+Chat with Claude, Gemini and hundreds of free models, and give them agents that work in your files and apps.	Mengobrol dengan Claude, Gemini, dan ratusan model gratis, dan beri mereka agen yang bekerja di berkas dan aplikasi Anda.
+How do you want to start?	Bagaimana Anda ingin memulai?
+Start	Mulai
+Skip for now	Lewati dulu
+Language	Bahasa
+No key needed.	Tidak perlu kunci.
+Download	Unduh
+Save	Simpan
+Get a key	Dapatkan kunci
+key saved.	kunci disimpan.
+Couldn't save the key	Gagal menyimpan kunci
+Back	Kembali
+Default model:	Model bawaan:
+Your keys stay on this computer and are sent only to the service they belong to.	Kunci Anda tetap di komputer ini dan hanya dikirim ke layanan pemiliknya.
+models	model
+Loading…	Memuat…
+Remove	Hapus
+Add an OpenAI-compatible service	Tambah layanan yang kompatibel dengan OpenAI
+For example LM Studio, DeepSeek, Mistral or a company server.	Misalnya LM Studio, DeepSeek, Mistral, atau server perusahaan.
+Name	Nama
+Add	Tambah
+Edit	Ubah
+Delete	Hapus
+New agent	Agen baru
+Agents can work inside these apps. Turn an app on for an agent under Agents.	Agen bisa bekerja di dalam aplikasi ini. Aktifkan aplikasi untuk agen di bagian Agen.
+None of the مكتب apps were found on this computer.	Tidak ada aplikasi مكتب yang ditemukan di komputer ini.
+Get them free at mokteb.com	Dapatkan gratis di mokteb.com
+Run without asking	Jalankan tanpa bertanya
+Add an MCP server	Tambah server MCP
+The command that starts it, for example: npx -y @modelcontextprotocol/server-filesystem ~/Documents	Perintah yang menjalankannya, misalnya: npx -y @modelcontextprotocol/server-filesystem ~/Documents
+Command	Perintah
+Browse…	Telusuri…
+Look for apps again	Cari aplikasi lagi
+Appearance	Tampilan
+Made by Nasser Alqahtani, part of the مكتب family of apps.	Dibuat oleh Nasser Alqahtani, bagian dari keluarga aplikasi مكتب.
+Your chats are saved in	Obrolan Anda disimpan di
+Paste the API key	Tempel kunci API
+Badge (one letter)	Lencana (satu huruf)
+Instructions	Instruksi
+Model	Model
+Default	Bawaan
+model id	id model
+Effort (Claude)	Upaya (Claude)
+Tools	Alat
+Read web pages	Baca halaman web
+No working folder	Tidak ada folder kerja
+Choose folder…	Pilih folder…
+No apps found. Install Kalima, Jadwal, Ard or Wathiqa, or add an MCP server under Apps.	Tidak ada aplikasi. Pasang Kalima, Jadwal, Ard, atau Wathiqa, atau tambahkan server MCP di Aplikasi.
+Done	Selesai
+Free: Google gives a free daily allowance. Get a key in two minutes with a Google account.	Gratis: Google memberi jatah harian gratis. Dapatkan kunci dalam dua menit dengan akun Google.
+One key for hundreds of models, including many free ones.	Satu kunci untuk ratusan model, banyak yang gratis.
+Claude, paid per use. Best for writing, reasoning and agents.	Claude, bayar sesuai pemakaian. Terbaik untuk menulis, bernalar, dan agen.
+Free and private: models running on this computer (needs Ollama and a fast computer).	Gratis dan privat: model yang berjalan di komputer ini (butuh Ollama dan komputer yang cepat).
+AI services	Layanan AI
+Apps	Aplikasi
+General	Umum
+Quick	Cepat
+Balanced	Seimbang
+Thorough	Mendalam
+Automatic	Otomatis
+Light	Terang
+Dark	Gelap
+Permission needed	Perlu izin
+Read and write files in this folder	Baca dan tulis file di folder ini

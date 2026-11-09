@@ -1,0 +1,106 @@
+# Turkish (Türkçe)
+# English<TAB>translation. A missing line shows in English.
+Couldn't save settings	Ayarlar kaydedilemedi
+Choose a model	Model seç
+Add an API key in Settings first.	Önce Ayarlar'dan bir API anahtarı ekleyin.
+Choose a model first.	Önce bir model seçin.
+The model declined to answer.	Model yanıt vermeyi reddetti.
+The reply was cut off because it got too long.	Yanıt çok uzadığı için kesildi.
+The agent stopped after many steps. Say “continue” to let it go on.	Ajan birçok adımdan sonra durdu. Devam etmesi için “devam” yazın.
+Some apps couldn't start:	Bazı uygulamalar başlatılamadı:
+This kind of file can't be attached	Bu tür bir dosya eklenemez
+The file is larger than 20 MB	Dosya 20 MB'tan büyük
+Agent AI	Agent AI
+New chat	Yeni sohbet
+Agents	Ajanlar
+Chats	Sohbetler
+Delete chat	Sohbeti sil
+Settings	Ayarlar
+tokens	token
+Running	Çalışıyor:
+Copy	Kopyala
+Thinking…	Düşünüyor…
+How can I help?	Nasıl yardımcı olabilirim?
+Pick an agent on the side, or just start typing.	Yandan bir ajan seçin ya da yazmaya başlayın.
+Tip: install Kalima, Jadwal, Ard or Wathiqa from mokteb.com and the agents can work in them.	İpucu: mokteb.com'dan Kalima, Jadwal, Ard veya Wathiqa'yı kurun, ajanlar onların içinde çalışabilsin.
+Stop	Durdur
+Send	Gönder
+Attach files	Dosya ekle
+Write a message… (Shift+Enter for a new line)	Bir mesaj yazın… (Yeni satır için Shift+Enter)
+Free only	Yalnızca ücretsiz
+Search	Ara
+Load models	Modelleri yükle
+Try again	Tekrar dene
+free	ücretsiz
+the agent	ajan
+Allow	İzin ver
+Always allow in this chat	Bu sohbette hep izin ver
+Don't allow	İzin verme
+Check the API key in Settings.	Ayarlar'daki API anahtarını kontrol edin.
+Too many requests or no credit left. Wait a little, or try another model.	Çok fazla istek ya da bakiye kalmadı. Biraz bekleyin veya başka bir model deneyin.
+Check the internet connection.	İnternet bağlantısını kontrol edin.
+Welcome to Agent AI	Agent AI'a hoş geldiniz
+Chat with Claude, Gemini and hundreds of free models, and give them agents that work in your files and apps.	Claude, Gemini ve yüzlerce ücretsiz modelle sohbet edin; onlara dosyalarınızda ve uygulamalarınızda çalışan ajanlar verin.
+How do you want to start?	Nasıl başlamak istersiniz?
+Start	Başla
+Skip for now	Şimdilik atla
+Language	Dil
+No key needed.	Anahtar gerekmez.
+Download	İndir
+Save	Kaydet
+Get a key	Anahtar al
+key saved.	anahtar kaydedildi.
+Couldn't save the key	Anahtar kaydedilemedi
+Back	Geri
+Default model:	Varsayılan model:
+Your keys stay on this computer and are sent only to the service they belong to.	Anahtarlarınız bu bilgisayarda kalır ve yalnızca ait oldukları hizmete gönderilir.
+models	model
+Loading…	Yükleniyor…
+Remove	Kaldır
+Add an OpenAI-compatible service	OpenAI uyumlu hizmet ekle
+For example LM Studio, DeepSeek, Mistral or a company server.	Örneğin LM Studio, DeepSeek, Mistral veya bir şirket sunucusu.
+Name	Ad
+Add	Ekle
+Edit	Düzenle
+Delete	Sil
+New agent	Yeni ajan
+Agents can work inside these apps. Turn an app on for an agent under Agents.	Ajanlar bu uygulamaların içinde çalışabilir. Bir ajan için uygulamayı Ajanlar bölümünden açın.
+None of the مكتب apps were found on this computer.	Bu bilgisayarda مكتب uygulaması bulunamadı.
+Get them free at mokteb.com	mokteb.com'dan ücretsiz edinin
+Run without asking	Sormadan çalıştır
+Add an MCP server	MCP sunucusu ekle
+The command that starts it, for example: npx -y @modelcontextprotocol/server-filesystem ~/Documents	Onu başlatan komut, örneğin: npx -y @modelcontextprotocol/server-filesystem ~/Documents
+Command	Komut
+Browse…	Gözat…
+Look for apps again	Uygulamaları yeniden ara
+Appearance	Görünüm
+Made by Nasser Alqahtani, part of the مكتب family of apps.	Nasser Alqahtani tarafından, مكتب uygulama ailesinin bir parçası.
+Your chats are saved in	Sohbetleriniz şuraya kaydedilir:
+Paste the API key	API anahtarını yapıştırın
+Badge (one letter)	Rozet (tek harf)
+Instructions	Talimatlar
+Model	Model
+Default	Varsayılan
+model id	model kimliği
+Effort (Claude)	Çaba (Claude)
+Tools	Araçlar
+Read web pages	Web sayfalarını oku
+No working folder	Çalışma klasörü yok
+Choose folder…	Klasör seç…
+No apps found. Install Kalima, Jadwal, Ard or Wathiqa, or add an MCP server under Apps.	Uygulama bulunamadı. Kalima, Jadwal, Ard veya Wathiqa'yı kurun ya da Uygulamalar'dan bir MCP sunucusu ekleyin.
+Done	Tamam
+Free: Google gives a free daily allowance. Get a key in two minutes with a Google account.	Ücretsiz: Google günlük ücretsiz kota verir. Bir Google hesabıyla iki dakikada anahtar alın.
+One key for hundreds of models, including many free ones.	Yüzlerce model için tek anahtar, çoğu ücretsiz.
+Claude, paid per use. Best for writing, reasoning and agents.	Claude, kullandıkça öde. Yazma, akıl yürütme ve ajanlar için en iyisi.
+Free and private: models running on this computer (needs Ollama and a fast computer).	Ücretsiz ve gizli: bu bilgisayarda çalışan modeller (Ollama ve hızlı bir bilgisayar gerekir).
+AI services	Yapay zekâ hizmetleri
+Apps	Uygulamalar
+General	Genel
+Quick	Hızlı
+Balanced	Dengeli
+Thorough	Kapsamlı
+Automatic	Otomatik
+Light	Açık
+Dark	Koyu
+Permission needed	İzin gerekiyor
+Read and write files in this folder	Bu klasörde dosya oku ve yaz

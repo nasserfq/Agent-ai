@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- Agent AI (وكيل) app icon: original artwork in the مكتب palette (blue #3B5BDB, ink #1F2A5C, gold #F5B841). -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4C6EF0"/>
+      <stop offset="1" stop-color="#3B5BDB"/>
+    </linearGradient>
+  </defs>
+  <rect x="64" y="64" width="896" height="896" rx="208" fill="url(#bg)"/>
+  <path d="M300 300 H724 A96 96 0 0 1 820 396 V588 A96 96 0 0 1 724 684 H420 L300 790 L326 684 H300 A96 96 0 0 1 204 588 V396 A96 96 0 0 1 300 300 Z" fill="#FFFFFF"/>
+  <circle cx="380" cy="492" r="44" fill="#1F2A5C"/>
+  <circle cx="512" cy="492" r="44" fill="#1F2A5C"/>
+  <circle cx="644" cy="492" r="44" fill="#F5B841"/>
+  <circle cx="790" cy="236" r="58" fill="#F5B841"/>
+</svg>

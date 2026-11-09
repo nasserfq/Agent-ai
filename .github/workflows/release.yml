@@ -1,0 +1,110 @@
+name: Release
+
+# A push to `release` builds Agent AI for macOS, Windows and Linux and publishes the downloads as a
+# GitHub release. This is the repository's only workflow.
+on:
+  push:
+    branches: [release]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: macos-15
+            name: macos
+          - os: windows-latest
+            name: windows-x64
+          - os: ubuntu-22.04
+            name: linux-x64
+    runs-on: ${{ matrix.os }}
+    env:
+      # Release n is version 1.n.0: the app's version, the tag and the download names.
+      VERSION: 1.${{ github.run_number }}.0
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ runner.os == 'macOS' && 'aarch64-apple-darwin,x86_64-apple-darwin' || '' }}
+      - uses: Swatinem/rust-cache@v2
+      - name: Stamp the version
+        shell: bash
+        run: |
+          perl -0pi -e 's/^version = "[^"]*"/version = "$ENV{VERSION}"/m' Cargo.toml
+          cargo update --workspace
+          grep -m1 '^version' Cargo.toml
+      - name: Linux build dependencies
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends pkg-config libxkbcommon-dev libwayland-dev libx11-dev \
+            libxcursor-dev libxrandr-dev libxi-dev
+      - name: Tests
+        if: runner.os == 'Linux'
+        run: cargo test --locked
+      - name: macOS signing certificate
+        if: runner.os == 'macOS'
+        # Signed and notarized when these repository secrets exist; otherwise ad-hoc (unsigned).
+        env:
+          APPLE_CERTIFICATE: ${{ secrets.APPLE_CERTIFICATE }}
+          APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
+        run: packaging/macos/import-cert.sh
+      - name: macOS app (DMG)
+        if: runner.os == 'macOS'
+        env:
+          APPLE_ID: ${{ secrets.APPLE_ID }}
+          APPLE_PASSWORD: ${{ secrets.APPLE_PASSWORD }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+        run: DIST="$PWD/out" packaging/macos/package.sh
+      - name: Windows and Linux builds
+        if: runner.os != 'macOS'
+        shell: bash
+        run: |
+          cargo build --release --locked -p agent-ai
+          mkdir -p "out/Agent AI"
+          cp LICENSE-MIT LICENSE-APACHE NOTICE ATTRIBUTION.md README.md assets/fonts/OFL-*.txt "out/Agent AI/"
+          if [[ "$RUNNER_OS" == Windows ]]; then
+            cp target/release/agent-ai.exe "out/Agent AI/Agent AI.exe"
+            (cd out && 7z a "agent-ai-$VERSION-windows-x64-portable.zip" "Agent AI" >/dev/null)
+          else
+            cp target/release/agent-ai "out/Agent AI/agent-ai"
+            cp assets/icon/agent-ai-256.png "out/Agent AI/"
+            tar -C out -czf "out/agent-ai-$VERSION-linux-x86_64.tar.gz" "Agent AI"
+          fi
+          rm -rf "out/Agent AI"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.name }}
+          path: out/*
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+      - name: Checksums
+        run: cd dist && sha256sum * > SHA256SUMS.txt
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.${{ github.run_number }}.0
+          name: Agent AI 1.${{ github.run_number }}.0
+          target_commitish: ${{ github.sha }}
+          files: dist/*
+          body: |
+            Agent AI (وكيل): Claude, Gemini, OpenRouter and free AI models in one light app, with agents.
+
+            - **macOS** (Intel from macOS 10.12 Sierra, so a 2015 MacBook Pro works, and Apple silicon): the `.dmg`. Open it and drag Agent AI to Applications.
+            - **Windows** (64-bit): the `windows-x64-portable.zip`. Unzip it and run `Agent AI.exe`.
+            - **Linux** (x86_64): the `linux-x86_64.tar.gz`. Extract it and run `agent-ai`.
+
+            يعمل على أجهزة Mac القديمة بدءًا من macOS 10.12، وعلى Windows وLinux. للبدء مجانًا: احصل على مفتاح Gemini مجاني أو استخدم النماذج المجانية في OpenRouter.

@@ -1,0 +1,5 @@
+/target
+/dist
+/out
+.DS_Store
+*.bak
